@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Info Windows</title>
+</head>
+
+<body>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+            var lombok = {
+                lat: -8.5830695,
+                lng: 116.3202515
+            };
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 9,
+                center: lombok
+            });
+            var contentString = '<h2>Hello Dunia! </h2>';
+            var infowindow = new google.maps.infowindow({
+                content: contentString,
+                position: lombok
+            });
+            infowindow.open(map);
+        }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?callback=initMap"></script>
+</body>
+
+</html>

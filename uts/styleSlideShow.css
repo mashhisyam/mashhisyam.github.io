@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/batik.jpg);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+header {
+    background-image: url(img/batik.jpg);
+}
+
+header h1 {
+    font-family: 'logo';
+    font-size: 50px;
+    float: left;
+    padding: 15px 0;
+    color: #E8E7CE;
+}
+
+header ul {
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+    font-family: 'logo';
+}
+
+header ul li a {
+    padding: 25px 15px;
+    display: inline-block;
+    color: #E8E7CE;
+}
+
+header ul li a:hover {
+    background-color: #fff;
+    color: #944813;
+}
+
+.judul {
+    color: bisque;
+    text-align: center;
+    line-height: 50px;
+}
+
+.slidershow {
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.bar {
+    width: 50px;
+    height: 10px;
+    border: 2px solid#fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar:hover {
+    background: #fff;
+}
+
+input[name="r"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide {
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+#r1:checked~.s1 {
+    margin-left: 0;
+}
+
+#r2:checked~.s1 {
+    margin-left: -20%;
+}
+
+#r3:checked~.s1 {
+    margin-left: -40%;
+}

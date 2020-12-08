@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Nama : Hisyam Haryo Mahdyan NIM : 1941720186 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styleTable2.css">
+    <script src="jquery-3.5.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            //Menambah Baris
+            $(".add-row").click(function() {
+                var kode = $("#kode").val();
+                var name = $("#name").val();
+                var status = $("#status").val();
+                var jenis = $("#jenis").val();
+                var jumlah = $("#jumlah").val();
+                var markup = "<tr><td><input type='checkbox' name='record'></td><td>" +
+                    kode + "</td><td>" +
+                    name + "</td><td>" +
+                    status + "</td><td>" +
+                    jenis + "</td><td>" +
+                    jumlah + "</td></tr>";
+
+                $("table tbody").append(markup)
+            });
+            // menghapus baris yang di centang
+            $(".delete-row").click(function() {
+                $("table tbody").find('input[name="record"]').each(function() {
+                    if ($(this).is(":checked")) {
+                        $(this).parents("tr").remove();
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <ul>
+                <li>
+                    <a href="slideShow.html">Home</a>
+                </li>
+                <li>
+                    <a href="Biodata.html">Biodata</a>
+                </li>
+                <li>
+                    <a href="ProfilResto.html">Resto Profil</a>
+                </li>
+                <li>
+                    <a href="Pemesanan.html">Pemesanan</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <form action="" method="POST">
+        <table>
+            <tr>
+                <td>Id</td>
+                <td><input type="text" id="kode"></td>
+            </tr>
+            <tr>
+                <td>Nama</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>Status</td>
+                <td><input type="radio" id="status" name="status">Member</td>
+                <td><input type="radio" id="status" name="status">Non-Member</td>
+            </tr>
+            <tr>
+                <td>Nama Jenis Makanan</td>
+                <td><select name="makanan" id="jenis">
+                    <option>Soto Lamongan</option>
+                    <option>Soto Madura</option>
+                    <option>Soto Betawi</option>
+                    </select>
+            </tr>
+            <tr>
+                <td>Jumlah Pesanan</td>
+                <td><input type="number" id="jumlah"></td>
+            </tr>
+
+        </table>
+        <table>
+            <thead>
+                <tr>
+                    <th>Select</th>
+                    <th>Id</th>
+                    <th>Nama</th>
+                    <th>Status</th>
+                    <th>Pesanan</th>
+                    <th>Jumlah Pesanan</th>
+                </tr>
+            </thead>
+
+            <button type="button" class="add-row">Add-row</button>
+        </table>
+        <button type="button" class="delete-row">Delete Row</button>
+</body>
+
+</html>
