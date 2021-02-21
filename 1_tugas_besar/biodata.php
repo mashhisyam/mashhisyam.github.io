@@ -180,7 +180,7 @@
                                                     <tr>
                                                         <td class="textt ">Date Of Birth</td>
                                                         <td>:</td>
-                                                        <td>Karawang, 18 september 2001</td>
+                                                        <td>Karawang, 18 September 2001</td>
                                                     </tr>
                                                     <tr>
                                                         <td class="textt ">Faculty</td>
