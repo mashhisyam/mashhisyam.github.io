@@ -1,0 +1,81 @@
+@font-face {
+    font-family: "font new";
+    src: url(Font/Montserrat/Montserrat-Light.ttf);
+}
+
+body {
+    color: #6b0e00;
+    background-color: #f9f8f6;
+    background-image: url(img/background_form.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+li {
+    margin-top: 0;
+    margin-right: 7px;
+}
+
+#navbar-atas {
+    font-family: 'font new';
+    height: 40px;
+    font-size: 14px;
+    font-weight: 1000;
+    color: #111110;
+    background-color: #a8735e;
+    border-top: 2px;
+    margin-top: 0;
+}
+
+#navbar-bawah {
+    font-family: 'font new';
+    height: 25px;
+    font-size: 13px;
+    background-color: #a8735e;
+    display: flex;
+}
+
+#title {
+    margin-top: 80px;
+    font-family: 'font new';
+    color: white;
+    font-weight: bolder;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.jumbotron {}
+
+#form {
+    margin: 15px 20px 0px 20px;
+}
+
+#phone,
+#contact,
+#name {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.value {
+    background-color: #a8735e;
+    margin: 20px 100px 40px 100px
+}
+
+#footer-bawah {
+    height: 86px;
+}
+
+#dadang {
+    font-weight: bolder;
+    background-color: rgba(240, 222, 210, 0.9);
+    margin: 20px 100px 60px 100px;
+    padding: 10px 5px 10px 5px;
+    font-family: 'font new';
+    border-radius: 3%;
+    box-shadow: 0 2px 20px;
+}

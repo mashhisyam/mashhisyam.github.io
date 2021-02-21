@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="styleMenu.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css  ">
+    <script src="js/jquery.min.js"></script>
+    <!-- memasukkan style -->
+    <style>
+        @font-face {
+            font-family: "font new";
+            src: url(Font/Montserrat/Montserrat-Light.ttf);
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <nav class="navbar fixed-top navbar-expand-sm navbar-light" id="navbar-atas">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand" style="margin-left: 25px;">
+                言明 GENMEI
+            </a>
+            <ul class="nav navbar-nav justify-content-end" style="margin-right: 25px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="biodata.php">Profile</a>
+                </li>
+                <li>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="#menu" class="nav-link ">Menu</a>
+                </li>
+                <li>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="reservation.php" class="nav-link ">Reservation</a>
+                </li>
+                <li>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
+                </li>
+                <li class="nav-item">
+                    <a href="tel:+6281225593609" class="nav-link ">Login</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!-- navbar bawah -->
+    <nav class="navbar fixed-bottom navbar-expand-sm navbar-light" id="navbar-bawah">
+        <div class="container">
+            <a href="https://www.google.com/maps/place/Gedung+Sate/@-6.9024759,107.6166213,17z/data=!3m1!4b1!4m5!3m4!1s0x2e68e64c5e8866e5:0x37be7ac9d575f7ed!8m2!3d-6.9024812!4d107.61881?hl=id" target="_blank" class="navbar-brand" style="font-size: 11px;">
+                181 VETERAN BANDUNG, WEST JAVA 48881 INDONESIA
+            </a>
+            <ul class="nav navbar-nav justify-content-end ">
+                <li class="nav-item">
+                    <a class="nav-link " href="mailto: hharyo7@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
+                </li>
+                <li class="nav-item ">
+                    <a href="tel:+6281225593609" class="nav-link"><i class="fas fa-phone"></i></a>
+                </li>
+                <li>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">|</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://instagram.com" target="_blank"><i class="fab fa-instagram "></i></a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link disabled " href="# " tabindex="-1 " aria-disabled="true ">|</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 class="text-center" id="main_title" style="margin: 55px 50px 40px 50px;">OUR MENU</h1>
+    <section class="Appetizers">
+        <div class="row text-center">
+            <div class="col">
+                <div id="appetizers" class=" jumbotron-fluid ">
+                    <h1 id="title " class=" "><br>Appetizers</h1>
+                    <div id="carouselExampleControls1" class="carousel carousel-dark slide" data-ride="carousel " id="carousel " data-bs-ride="carousel ">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src="img/appetizers.jpg " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Chicken Karage</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">This is a simple yet delicious Japanese-style fried chicken flavored with ginger, garlic and sake and soy sauce. Serve as an appetizer or with rice and veggies to make a yummy meal. </p>
+                            </div>
+                            <div class="carousel-item " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src="img/appetizers2.jpg " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Okonomiyaki</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">'Okonomi' means 'whatever you like' and 'yaki' means 'cook or fry.' Serve with your favorite sauce: sweet and sour, Tonkatsu, sweet chili, etc.</p>
+                            </div>
+                            <div class="carousel-item " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src=" img/appetizers.jpeg " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Gyoza</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">I learned this recipe for pot stickers while living in Japan. They're great hot or cold, and may be eaten plain or with the dipping sauce. Any ground meat can be substituted for pork.</p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls1" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                            <span class="visually-hidden ">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls1" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                            <span class="visually-hidden ">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div id="main_course" class=" jumbotron-fluid ">
+                    <h1 id="title " class=" "><br>Main Course</h1>
+                    <div id="carouselExampleControls2" class="carousel carousel-dark slide" data-ride="carousel " id="carousel " data-bs-ride="carousel ">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src="img/main_course.jpg " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Sukiyaki</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">Vegetables, noodles, and beef are served in a steaming, flavorful broth made with dashi, mirin, and soy sauce in this Japanese dish, sukiyaki.</p>
+                            </div>
+                            <div class="carousel-item " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src="img/main_course2.jpg " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Soba Noodle</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">This tasty salad with Japanese buckwheat noodles is both quick and healthy; great for lunch or dinner.</p>
+                            </div>
+                            <div class="carousel-item " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src=" img/main_course3.jpg " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Ramen</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">This incredible dish is chock-full of fantastic flavor. Fresh veggies, garlic, soy sauce, sugar, peanut butter and a ginger flavor infused broth are tossed with noodles.</p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                            <span class="visually-hidden ">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                            <span class="visually-hidden ">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div id="dessert" class=" jumbotron-fluid ">
+                    <h1 id="title " class=" "><br>Dessert</h1>
+                    <div id="carouselExampleControls3" class="carousel carousel-dark slide" data-ride="carousel " id="carousel " data-bs-ride="carousel ">
+                        <div class="carousel-inner ">
+                            <div class="carousel-item active " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src="img/desert.png " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Manju</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">This is a simple yet delicious Japanese-style fried chicken flavored with ginger, garlic and sake and soy sauce. Serve as an appetizer or with rice and veggies to make a yummy meal. </p>
+                            </div>
+                            <div class="carousel-item " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src="img/desert2.png " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Mochi</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">'Okonomi' means 'whatever you like' and 'yaki' means 'cook or fry.' Serve with your favorite sauce: sweet and sour, Tonkatsu, sweet chili, etc.</p>
+                            </div>
+                            <div class="carousel-item " data-bs-interval="1000000 ">
+                                <img class="rounded-circle " src="img/desert3.png " width="180px " height="180px ">
+                                <h3 id="food_title " class=" "><br>Dango</h3>
+                                <p style="font-family: 'font new'; line-height: 28px; ">Soft and chewy Japanese dessert. A tradition of boy's or girl's day. Great for a snack for picnics or parties. This recipe is easy to make, but do not try cheating and double it. The directions should be followed exactly.</p>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls3" role="button" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon " aria-hidden="true "></span>
+                            <span class="visually-hidden ">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls3" role="button" data-bs-slide="next">
+                            <span class="carousel-control-next-icon " aria-hidden="true "></span>
+                            <span class="visually-hidden ">Next</span>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="footer " style="background-color: #1c0d08 ">
+        <footer class="page-footer pt-1 " id="footer-bawah " style="color: #ffff; background-color: #0f0704; ">
+            <div class="footer-copyright text-center py-3 " id="footer-value ">Copyright &copy; 2020 Hisyam Haryo Mahdyan. All Right Reserved
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>

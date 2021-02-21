@@ -1,0 +1,81 @@
+#navbar-atas {
+    font-family: 'font new';
+    height: 40px;
+    font-size: 14px;
+    font-weight: 1000;
+    color: #111110;
+    background-color: #a8735e;
+    border-top: 2px;
+    margin-top: 0;
+}
+
+#navbar-bawah {
+    font-family: 'font new';
+    height: 25px;
+    font-size: 13px;
+    color: #f7dacd;
+    background-color: #a8735e;
+    display: flex;
+}
+
+.warna-baris {
+    background-color: #F7E9DE;
+}
+
+#table {
+    width: 1000px;
+    margin: 20px 200px 20px 130px;
+}
+
+#title {
+    font-family: 'font new';
+    margin: 90px 200px 20px 200px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    border-color: rgba(128, 64, 34, 0.5);
+    font-weight: bolder;
+}
+
+#button_insert {
+    /* background-color: #7B9C2A; */
+    font-family: 'font new';
+    color: #F7EBE0;
+    font-weight: bolder;
+    width: 680px;
+    font-size: 18px;
+    margin: 15px 200px 20px 310px;
+}
+
+#search {
+    /* position: relative; */
+    margin: 65px 150px 20px 465px;
+    font-weight: bolder;
+}
+
+#button_search {
+    background-color: #A37759;
+    font-family: 'font new';
+    color: #F7EBE0;
+    height: 30px;
+    width: 80px;
+    margin-bottom: 3px;
+    padding: 2px 5px 20px 5px;
+    font-weight: bolder;
+}
+
+#button_delete {
+    font-family: 'font new';
+    background-color: #D93D38;
+    font-weight: bolder;
+}
+
+#button_edit {
+    font-family: 'font new';
+    background-color: #599117;
+    font-weight: bolder;
+    width: 70px;
+}
+
+#button {
+    margin-left: 10px;
+}

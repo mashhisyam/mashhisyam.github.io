@@ -1,0 +1,11 @@
+#regist-box {
+    position: relative;
+    top: 50px;
+    width: 760px;
+    border: 2px solid;
+    margin: 50px auto;
+    font-family: 'font new';
+    border-radius: 3%;
+    box-shadow: 0 2px 20px;
+    border: 2px solid;
+}

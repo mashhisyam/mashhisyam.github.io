@@ -1,0 +1,86 @@
+#navbar-atas {
+    font-family: 'font new';
+    height: 40px;
+    font-size: 14px;
+    font-weight: 1000;
+    color: #111110;
+    background-color: #a8735e;
+    border-top: 2px;
+    margin-top: 0;
+}
+
+#navbar-bawah {
+    font-family: 'font new';
+    height: 25px;
+    font-size: 13px;
+    color: #f7dacd;
+    background-color: #a8735e;
+    display: flex;
+}
+
+#food_title {
+    font-family: 'font new';
+    color: #b75c31;
+    line-height: 30px;
+}
+
+.row {
+    width: 1273px;
+    /* border: 2px solid; */
+}
+
+.jumbotron-fluid {
+    margin: 10px 10px 10px 10px;
+    height: 500px;
+}
+
+section {
+    margin-top: 10px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    margin: 20px 0 20px 0;
+}
+
+#main_title {
+    color: black;
+    font-weight: bolder;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    border-bottom: 2px solid;
+    border-color: rgba(128, 64, 34, 0.5);
+}
+
+h3 {
+    color: #b75c31;
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'font new';
+    color: #804022;
+    font-weight: bolder;
+}
+
+#appetizers {
+    border-radius: 2%;
+    font-family: 'font new';
+    background-color: rgba(255, 224, 162, 0.8);
+}
+
+#main_course {
+    border-radius: 2%;
+    font-family: 'font new';
+    background-color: rgba(201, 163, 142, 0.8);
+}
+
+#dessert {
+    border-radius: 2%;
+    font-family: 'font new';
+    background-color: rgba(255, 199, 196, 0.8);
+}
+
+#footer-bawah {
+    margin-bottom: 20px;
+}
